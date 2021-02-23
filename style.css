@@ -1,0 +1,166 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	width: 1140px;
+	margin: 0 auto;
+}
+
+body {
+	font-family: sans-serif;
+}
+
+p {
+	font-size: 16px;
+	line-height: 26px;
+	color: #1F3F68;
+}
+
+h1 {
+	font-size: 64px;
+	color: #1F3F68;
+}
+
+.header_block {
+	border: 2px solid red;
+}
+
+.menu_prompt_block {
+	margin-left: 50px;
+	margin-right: 50px;
+	border: 2px solid #c337d9;
+}
+
+.menu {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	border: 2px solid green;
+}
+
+.ref_list {
+	display: flex;
+	list-style-type: none;
+	justify-content: space-around;
+	padding-left: 200px;
+}
+
+.desc_block {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-left: 50px;
+	margin-right: 50px;
+	border: 2px solid purple;
+}
+
+.par_header {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-right: 50px;
+	border: 2px solid green;
+	display: flex;
+	justify-content: space-around;
+}
+
+.par_images {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-right: 50px;
+	width: 359px;
+	border: 2px solid #c337d9;
+}
+
+.prompt {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-right: 500px;
+	border: 2px solid #30d4d4;
+	padding-right: 250px;
+	width: 510px;
+}
+
+.text_after_prompt {
+	width: 425px;
+}
+
+.contact {
+	font-weight: 500;
+	font-size: 44px;
+	text-align: center;
+}
+
+.h3class {
+	font-size: 36px;
+	text-align: center;
+}
+
+.h4class {
+	font-size: 20px;
+	line-height: 30px;
+	color: #1F3F68;
+}
+
+.inputs {
+	border: 1px solid #356EAD;
+	box-sizing: border-box;
+	border-radius: 10px;
+	opacity: 0.4;
+}
+
+.button_class {
+	background: #5A98D0;
+	box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+	border-radius: 10px;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 26px;
+	text-align: center;
+	color: #FFFFFF;
+	text-transform: uppercase;
+}
+
+.footer_block {
+	margin-top: 200px;
+	border: 2px solid #ef2929;
+	padding-left: 50px;
+	padding-right: 50px;
+	align-items: center;
+}
+
+.footer_p_h {
+	margin-top: 10px;
+	border: 2px solid #ef2929;
+	display: flex;
+	justify-content: center;
+}
+
+.footer_images {
+	margin-top: 100px;
+	margin-bottom: 20px;
+	width: 250px;
+	border: 2px solid #c337d9;
+}
+
+.contacts_rights {
+	margin-top: 10px;
+	border: 2px solid #73d216;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.contacts {
+	display: flex;
+	list-style-type: none;
+	justify-content: space-around;
+	padding-left: 200px;
+}
+
+.rights {
+	margin-top: 100px;
+	margin-bottom: 20px;
+	border: 2px solid #d3d7cf;
+	display: flex;
+	justify-content: center;
+}

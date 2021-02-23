@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Главная</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class=header_block>
+    <div class=menu_prompt_block>
+        <div class=menu>
+
+            <ul class=ref_list>
+                <li><a href=index.html>Главная</a></li>
+                <li><a href=contacts.html>Контакты</a></li>
+            </ul>
+        </div>
+        <div class=prompt>
+            <h1>
+                Офигенный заголовок!
+            </h1>
+            {% for link in links_list %}
+
+                {{ link }}
+
+            {% endfor %}
+        </div>
+    </div>
+</div>
+
+<hr>
+<div class=contacts_rights>
+    <ul class=contacts>
+        <li>Главный офис<br>555-35-64<br>main_office@pochta.com</li>
+        <li>Неглавный офис<br>666-35-64<br>notmain_office@pochta.com</li>
+        <li>Костя-продажник<br>333-35-64<br>kostyan@pochta.com</li>
+    </ul>
+    <div class=rights>
+        <p>
+            All rights reserved!
+        </p>
+    </div>
+</div>
+</div>
+</body>
+</html>
